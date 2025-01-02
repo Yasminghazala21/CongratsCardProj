@@ -1,0 +1,138 @@
+/* Write your code here. */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .congrats-card-main-background-conatiner {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .congrats-card-main-heading {
+    font-family: 'Roboto';
+    color: #0f172a;
+    font-size: 50px;
+    font-weight: 400;
+  }
+  
+  @media screen and (max-height: 576px) {
+    .congrats-card-main-heading {
+      font-size: 35px;
+    }
+  }
+  
+  @media screen and (min-height: 768px) {
+    .congrats-card-main-heading {
+      font-size: 60px;
+    }
+  }
+  
+  @media screen and (min-height: 992px) {
+    .congrats-card-main-heading {
+      font-size: 80px !important;
+    }
+  }
+  
+  .congrats-card-inner-conatiner {
+    background-color: #cffafe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  @media screen and (max-height: 576px) {
+    .congrats-card-inner-conatiner {
+      padding: 15px;
+    }
+  }
+  
+  @media screen and (min-height: 768px) {
+    .congrats-card-inner-conatiner {
+      padding: 50px;
+    }
+  }
+  
+  @media screen and (min-height: 992px) {
+    .congrats-card-inner-conatiner {
+      padding: 70px !important;
+    }
+  }
+  
+  .congrats-card-image {
+    height: 80px;
+  }
+  
+  @media screen and (max-height: 576px) {
+    .congrats-card-image {
+      height: 50px;
+    }
+  }
+  
+  @media screen and (min-height: 768px) {
+    .congrats-card-image {
+      height: 120px;
+    }
+  }
+  
+  @media screen and (min-height: 992px) {
+    .congrats-card-image {
+      height: 200px !important;
+    }
+  }
+  
+  .congrats-card-profile-name {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #1e293b;
+    margin-bottom: 0;
+  }
+  
+  @media screen and (max-height: 576px) {
+    .congrats-card-profile-name {
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (min-height: 992px) {
+    .congrats-card-profile-name {
+      font-size: 40px !important;
+    }
+  }
+  
+  .congarts-card-profile-paragarph {
+    font-family: 'Roboto';
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  
+  @media screen and (max-height: 576px) {
+    .congarts-card-profile-paragarph {
+      font-size: 10px;
+    }
+  }
+  
+  @media screen and (min-height: 992px) {
+    .congarts-card-profile-paragarph {
+      font-size: 25px !important;
+    }
+  }
+  
+  .paragarph-one {
+    margin-bottom: 0;
+  }
+  
+  .paragraph-two {
+    margin-top: 0;
+  }
+  
